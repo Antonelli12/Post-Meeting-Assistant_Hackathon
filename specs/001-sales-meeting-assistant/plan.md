@@ -64,7 +64,7 @@ README.md
 
 - `app.py`
   - Streamlit interface
-  - Transcript upload/selection
+  - Transcript upload/selection for `.txt`, `.md`, `.docx`, and `.pdf`
   - Paste/type plain text meeting notes input box
   - If both upload and pasted notes are provided, combine them (upload first, then "Additional Notes")
   - Analyse Transcript button and workflow orchestration
@@ -107,7 +107,7 @@ README.md
 ## Workflow
 
 1. Start the local Streamlit app.
-2. User either uploads a `.txt` or `.md` transcript file or pastes/types meeting notes into the provided text box. If both are provided, combine them into a single input where the uploaded transcript appears first and the pasted notes are appended under an "Additional Notes" separator.
+ 2. User either uploads a `.txt`, `.md`, `.docx`, or `.pdf` transcript file or pastes/types meeting notes into the provided text box. If both are provided, combine them into a single input where the uploaded transcript appears first and the pasted notes are appended under an "Additional Notes" separator.
 3. Click `Analyse`.
 4. App loads `data/source_of_truth.md` if present.
 5. If no Source of Truth exists, create the initial record from the submitted meeting input.

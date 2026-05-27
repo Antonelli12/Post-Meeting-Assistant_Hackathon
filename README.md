@@ -20,13 +20,14 @@ streamlit run app.py
 
 Input methods
 
-- Upload a transcript file (`.txt` or `.md`).
+- Upload a transcript file (`.txt`, `.md`, `.docx`, or `.pdf`).
 - Or paste/type meeting notes into the text box.
 - If both are provided, the uploaded transcript is used first and pasted notes are appended under an "Additional Notes" separator.
 
 Behaviour
 
 - After clicking `Analyse`, the app runs analysis, automatically updates `data/source_of_truth.md`, and saves a Word summary under `data/summaries/`.
+- Analysis output includes a concise transcript summary, client relationship notes, MEDDPIC highlights, updates since the previous Source of Truth, risks/gaps, and next steps.
 - The app displays saved file paths for both the Markdown Source of Truth and the Word summary so users can edit the Markdown file manually if desired.
 - This MVP intentionally omits in-app review/accept workflows and in-app Source of Truth editing; manual edits are made by opening `data/source_of_truth.md` in your editor.
 

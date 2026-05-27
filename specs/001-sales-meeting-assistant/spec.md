@@ -12,7 +12,7 @@
 
 The user must be able to provide meeting information in two ways for the MVP:
 
-1. Upload a transcript file (`.txt` or `.md`).
+1. Upload a transcript file (`.txt`, `.md`, `.docx`, or `.pdf`).
 2. Paste or type plain text meeting notes into a text input area in the app.
 
 Both input methods are equivalent for the analysis pipeline; the app should accept either method and run the same analysis workflow. If the user provides both an uploaded file and pasted text, the MVP combines them into a single meeting input where the uploaded transcript appears first and the pasted notes are appended under an "Additional Notes" separator.

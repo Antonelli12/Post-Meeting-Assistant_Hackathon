@@ -20,7 +20,7 @@
 
 **Purpose**: Implement core file handling, export, and application wiring before user story-specific logic.
 
-- [ ] T006 [P] Implement transcript loading in `src/transcript_loader.py` for `.txt` and `.md` files
+- [ ] T006 [P] Implement transcript loading in `src/transcript_loader.py` for `.txt`, `.md`, `.docx`, and `.pdf` files
 - [ ] T007 [P] Implement prompt templates in `src/prompt_templates.py` that encode MEDDPIC and SPIN guidance for analysis
 - [ ] T008 Implement source-of-truth file loading, saving, and Markdown serialization in `src/source_of_truth.py`
 - [ ] T009 Implement `.docx` meeting summary export in `src/document_exporter.py` using `python-docx`
